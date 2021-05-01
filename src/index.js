@@ -53,7 +53,6 @@ const inicio = require('./routes/inicioS');
 app.use("/inicio",inicio)
 
 const empleado = require('./routes/empleado');
-const { database } = require('./keys');
 app.use("/empleados",empleado);
 
 
